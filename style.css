@@ -12,8 +12,11 @@ h2 {
 }
 
 section {
-    display: flex;
     margin-bottom: 130px;
+}
+
+.d-flex {
+    display: flex;
 }
 
 section img {
@@ -46,6 +49,42 @@ section img {
     background-repeat: no-repeat;
 }
 
+.dream-big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .top-section img {
     margin-top: 20px;
+}
+
+.experience-area {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience-area .half-width {
+    box-shadow: 10px 10px 50px gray;
+    margin: 0 5%;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
+#web-developar {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 2;
+}
+
+#baby-web-developar {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
 }
